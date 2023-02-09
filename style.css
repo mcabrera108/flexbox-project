@@ -3,5 +3,32 @@
     padding: 0;
 }
 body {
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    display: flex;
+    color: #e5e7eb;
+    list-style-type: none;
+    gap: 25px;
+    font-size: 18px;
+}
+.header-container {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
+}
+.left-header {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.logo {
+    font-size: 24px;
+    color: #e5e7eb;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
