@@ -1,34 +1,192 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body {
+
+.body-container {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    flex-shrink: 0;
+
 }
-ul {
-    display: flex;
-    color: #e5e7eb;
-    list-style-type: none;
-    gap: 25px;
-    font-size: 18px;
-}
+
+/*All Classes associated with the header ul is also a part of these classes*/
 .header-container {
     display: flex;
     background-color: #1f2937;
-    justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
+    justify-content: space-evenly;
+}
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #f9faf8;
+    font-weight: 900;
+}
+ul {
+    display: flex;
+    color: #f9faf8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    gap: 20px;
+}
+/*All Classes for the first container in the body*/
+.first-container {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card-title {
+    font-size: 35px;
+    color: #f9faf8;
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    width: 400px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.card-description {
+    height: 70px;
+    width: 400px;
+    font-size: 18px;
+    color: #f9faf8;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.sign-up-button {
+    border-radius: 10px;
+    border: 2px solid rgb(0, 101, 216);
+    font-size: 17px;
+    font-weight: 900;
+    background-color: rgb(0, 101, 216);
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.picture-container {
+    display: flex;
+}
+.placeholder-picture {
+    display: flex;
+    height: 200px;
+    width: 450px;
+    background-color: rgb(172, 180, 185);
+    justify-content: center;
+    align-items: center;
 
 }
-.left-header {
+
+/*All Classes for the second container in the body*/
+.second-container {
     display: flex;
-    align-content: center;
-    flex-wrap: wrap;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
 }
-.logo {
-    font-size: 24px;
-    color: #e5e7eb;
+.random-title {
+    font-size: 35px;
+    color: #1f2937;
+    font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 900;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+.random-squares-body {
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(0, 119, 255);
+}
+.random-description {
+    text-align: center;
+    font-size: 20px;
+    height: 150px;
+    width: 200px;
+}
+.random-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.random-container.description-container {
+    padding-bottom: 50px;
+}
+
+/*All Classes for the third container in the body*/
+.third-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e0e1e4;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.quote-container {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+}
+.quote-name-container {
+    display: flex;
+    font-size: 20px;
+    font-weight: 900;
+    justify-content: flex-end;
+}
+
+/*All Classes for the fourth container in the body*/
+.fourth-container {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #aac4b4;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+.random-image {
+    border-radius: 25px;
+    flex: 1;
+    display: flex;
+    background-color: #2c6fcc;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 30px;
+    color: #e0e1e4;
+    justify-content: space-around;
+}
+.random-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/*All Classes associated with the footer.*/
+.footer-container {
+    display: flex;
+    background-color: #1f2937;
+    margin-top: auto;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+
